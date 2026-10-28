@@ -11,10 +11,10 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="relative flex h-18 w-full items-center justify-between border-b border-black/10 px-6 lg:px-12">
+    <header className="sticky top-0 z-40 flex h-18 w-full items-center justify-between border-b border-black/10 bg-background px-6 lg:px-12">
 
       {/*-------------Logo and Navigation-------------*/}
-      <div className="sticky h-full items-center gap-8">
+      <div className="flex h-full items-center gap-8">
         <a href="#home" className="shrink-0">
           <img
             src={Logo}

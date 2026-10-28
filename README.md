@@ -1,16 +1,62 @@
-# React + Vite
+# SunnyPizz 🍕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive pizza restaurant landing page built with React and Tailwind CSS, based on a custom Figma design.
 
-Currently, two official plugins are available:
+**[🚀 Live Demo](https://nasim-ho.github.io/SunnyPizz/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About the Project
 
-## React Compiler
+SunnyPizz is a modern landing page concept for a pizza restaurant, designed in Figma and implemented with React and Tailwind CSS. The design combines warm colors, playful food illustrations, and custom typography to create a welcoming experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Responsive layout for desktop, tablet, and mobile
+- Hero section with call-to-action buttons and customer ratings
+- Best-selling pizza cards
+- Fresh ingredients section
+- Customer reviews
+- Call-to-action section and footer
+- Mobile navigation with a smooth slide-in menu
+- Custom local fonts and reusable React components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- CSS
+- Figma
+
+## Run Locally
+
+To run the project on your computer:
+
+```bash
+git clone https://github.com/nasim-ho/SunnyPizz.git
+cd SunnyPizz
+npm install
+npm run dev
+```
+
+Open the local URL shown in your terminal to view the website.
+
+## Production Build
+
+To create an optimized production build, run:
+
+```bash
+npm run build
+```
+
+The generated files will be placed in the `dist` directory.
+
+## Deployment
+
+The project is deployed using GitHub Pages and GitHub Actions.
+
+**[View the Live Website](https://nasim-ho.github.io/SunnyPizz/)**
+
+---
+
+Created as a front-end portfolio project.
