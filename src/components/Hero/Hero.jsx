@@ -83,10 +83,10 @@ function Hero() {
         </div>
 
         {/*-------Hero Image---------*/}
-        <div className="mt-8 flex min-h-70 items-center justify-center z-10 absolute -top-8 sm:-top-22 md:-top-25 lg:-top-30 xl:-top-58 -right-14.25 lg:-right-2.5 lg:mt-0 lg:min-h-0 lg:w-[55%] lg:justify-end">
+        <div className="mt-8 flex min-h-70 items-center justify-center z-10 absolute -top-8 sm:-top-22 md:-top-25 lg:-top-30 xl:-top-58 -right-15 lg:-right-2.5 lg:mt-0 lg:min-h-0 lg:w-[55%] lg:justify-end">
           <img
             src={Pizza}
-            className="w-80 sm:w-95 md:w-100 lg:w-120 object-contain xl:w-160 lg:max-w-none"
+            className="w-75 sm:w-95 md:w-100 lg:w-120 object-contain xl:w-160 lg:max-w-none"
           />
         </div>
       </div>
