@@ -4,6 +4,7 @@ import Customer1 from '../../assets/Images/customer1-Hero.webp';
 import Customer2 from '../../assets/Images/customer2-Hero.webp';
 import Customer3 from '../../assets/Images/customer3-Hero.webp';
 
+import PlayCircle from '../../assets/icons/play_circle.webp';
 function Hero() {
   return (
     <section
@@ -39,9 +40,9 @@ function Hero() {
               type="button"
               className="inline-flex text-[13px] sm:text-[15px] md:text-[16px] lg:text-[20px] cursor-pointer items-center gap-2 rounded-full border border-black/25 px-4 md:px-5 py-3 text-sm text-heading transition-colors hover:border-primary hover:text-primary"
             >
-              <span className="flex h-5 w-5 lg:h-7 lg:w-7 pl-0.5 items-center justify-center rounded-full border border-primary text-[10px] text-primary">
-                ▶
-              </span>
+  
+              <img className='flex h-5 w-5 lg:h-7 lg:w-7' src={PlayCircle} alt="" />
+              
               Watch Our Story
             </button>
           </div>
